@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 250px;
+    margin: auto;
+}
+
+.box{
+    width: 340px;
+    height: 200px;
+    background: white;  
+    border: 1px solid black;
+}
+
+.red{
+    background: red;
+}
+
+.blue{
+    background: cornflowerblue;
+}
+
+.gray{
+    background: dimgray;
+}
+
+.text{
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 16pt;
+    height: 350px;
+}
+
+.big-content{
+    flex-direction: row;
+    height: 500px;
+    justify-content: flex-start;
+}
+.big-left{
+    width: 35%;
+    height: 100%;
+}
+.big-right{
+    width: 65%;
+    height: 100%;
+}
+
+.small-content{
+    height: 170px;
+    align-items: center;
+}
+.long{
+    height: 80%;
+    width: 70%;
+}
+
+.tiny{
+    height: 80%;
+    width: 5%;
+}
+
+.small{
+    height: 80%;
+    width: 20%;
+}
