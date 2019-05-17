@@ -1,0 +1,87 @@
+body {
+    padding: 15px 150px 15px 150px;
+    overflow: scroll;
+    /* height: 1500px; */
+    /* justify-content: space-between; */
+}
+
+span {
+    width: 55px;
+}
+
+p {
+    font-size: 26px;
+    font-family: arial;
+    /* margin: 0px; */
+    /* padding: 55px 0px 55px 0px; */
+}
+/* container */
+.header {
+    display: flex;
+    height: 200px;
+}
+
+.box1 {
+    background-color: red;
+    /* width: 550px; */
+    width: 33%;
+    display: inline-block;
+}
+
+.box2 {
+    background-color:rgb(118, 162, 245);;
+    width: 33%;
+    display: inline-block;
+}   
+
+.box3 {
+    background-color:rgb(97, 97, 97);
+    width: 33%;
+    display: inline-block;
+}
+/* another container */
+.body {
+    display: flex;
+    height: 550px;
+}
+
+.box4 {
+    background-color: red;
+    width: 30%;
+    display: inline-block;
+}
+
+.box5 {
+    background-color:  rgb(118, 162, 245);;
+    width: 70%;
+    display: inline-block;
+} 
+/* another container */
+.footer {
+    display: flex;
+    height: 150px;
+}
+
+.box6 {
+    background-color: rgb(118, 162, 245);
+    width: 70%;
+    display: inline-block;
+} 
+
+.box7 {
+    background-color: red;
+    width: 30%;
+    display: inline-block;
+    /* position: relative; */
+}
+
+.inner {
+    background-color: rgb(97, 97, 97);
+    width: 75%;
+    height: 150px;
+    /* display: inline-block; */
+    padding: 0px 20px 0px 10px;
+    position: relative;
+    /* left: 5px;
+    right: 5px; */
+}
