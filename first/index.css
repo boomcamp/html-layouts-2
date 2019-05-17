@@ -45,6 +45,8 @@ header{
 .box_content{
     height: 500px;
     margin: 25px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .full_height{
@@ -63,15 +65,14 @@ header{
     width: 100%;
 }
 
-.pull_left{
-    float: left;
-}
-
-.pull_right{
-    float: right;
-}
-
 footer {
     margin: 25px;
     height: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom_box1{
+    display: flex;
+    justify-content: center;
 }
