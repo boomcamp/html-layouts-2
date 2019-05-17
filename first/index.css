@@ -1,0 +1,82 @@
+.main-container {
+  position: absolute;
+  height: 2550px;
+  margin: 60px;
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 250px;
+  margin: 50px;
+}
+.first-box {
+  height: 300px;
+  background-color: red;
+  width: 550px;
+}
+.second-box {
+  height: 300px;
+  background-color: blue;
+  width: 550px;
+}
+.third-box {
+  height: 300px;
+  background-color: black;
+  width: 550px;
+}
+.second-container {
+  height: 250px;
+  margin: 50px;
+}
+.first-p {
+  position: relative;
+  flex-direction: column;
+  margin: 60px;
+  font-family: Arial;
+  font-size: 13pt;
+}
+.third-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 550px;
+  margin: 108px;
+}
+.big-box-red {
+  flex-direction: row;
+  height: 100%;
+  width: 25%;
+  background-color: red;
+}
+.big-box-blue {
+  height: 350px;
+  flex-direction: row;
+  width: 75%;
+  height: 100%;
+  background-color: blue;
+}
+.last-container {
+  display: flex;
+  height: 250px;
+  margin: 108px;
+}
+.small-blue {
+  height: 100%;
+  flex-direction: row;
+  width: 70%;
+  background-color: blue;
+}
+.small-red {
+  height: 100%;
+  flex-direction: row;
+  width: 5%;
+  background-color: red;
+}
+.small-black {
+  height: 100%;
+  flex-direction: row;
+  width: 20%;
+  background-color: black;
+}
