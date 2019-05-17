@@ -1,0 +1,68 @@
+.first{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px ; 
+    height: 200px;
+    justify-content: space-between;
+}
+
+.first-box{
+    width: 320px;
+}
+
+.red{
+    background-color: #ff0001;
+}
+.blue{
+    background-color:#6495ed;
+}
+
+.gray{
+    background-color: #696969 ;
+}
+
+.text{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px ; 
+    height: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.fatbox{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px ; 
+    height: 600px;
+}
+
+.fb-left{
+    width: 35%;
+}
+.fb-right{
+    width: 65%;
+}
+
+.footer{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    margin-top: 50px ; 
+}
+
+.one{
+    width: 70%;
+}
+
+.two{
+    width: 5%;
+}
+
+.three{
+    width: 20%;
+}
