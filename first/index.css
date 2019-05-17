@@ -29,6 +29,24 @@ header{
     background-color: #696969;
 }
 
+.flex33{
+    flex: 33;    
+}
+
+.flex77{
+    flex: 77;    
+}
+
+.full_height{
+    height: 100%;
+}
+
+.width75{
+    width: 75%;
+}
+
+/* Top Boxes */ 
+
 .top_box{
     height: 200px;
     width: calc(100% / 3 - 50px);
@@ -36,36 +54,26 @@ header{
     float: left;
 }
 
+/* Text Content */
+
 .text_content{
     font-size: 24px;
     padding: 25px;
     margin: 0;
 }
 
-.box_content{
+/* Middle Big Boxes */
+
+.box_content_wrap{
     height: 500px;
     margin: 25px;
     display: flex;
     justify-content: flex-start;
 }
 
-.full_height{
-    height: 100%;
-}
+/* Bottom Boxes */
 
-.width33{
-    width: 33%;
-}
-
-.width75{
-    width: 75%;
-}
-
-.width100{
-    width: 100%;
-}
-
-footer {
+footer{
     margin: 25px;
     height: 150px;
     display: flex;
