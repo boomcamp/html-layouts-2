@@ -1,0 +1,70 @@
+body {
+   
+}
+
+.container {
+    margin: 2.5% 10% 0 10%; 
+}
+
+.space{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.medium {
+    width: 29%;
+    height: 195px;
+}
+
+.large {
+    width: 100%;
+    display: flex;
+    height: 500px;
+}
+
+.l-item-red {
+    width: 35%;
+    
+}
+
+.l-item-blue {
+    width:70%;
+}
+.small {
+    width: 100%;
+    height: 150px;
+    bottom: 10px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px
+}
+
+.s-blue-item {
+    width: 68%;
+}
+
+.s-red-item {
+    width: 4%;
+}
+
+.s-gray-item {
+    width: 28%;
+}
+
+.text {
+    padding: 35px 0 35px 0;
+    font-family: Arial;
+    font-size: 1.5em;
+}
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.gray {
+    background-color: gray;
+}
+
