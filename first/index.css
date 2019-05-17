@@ -1,0 +1,79 @@
+body {
+    margin: 0 10px;
+}
+
+.first-wrp {
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: cornflowerblue
+}
+
+.grey {
+    background-color: grey;
+}
+
+.block {
+    width: 25%;
+    height: 22vh;
+    margin: 30px 10px 0px;
+}
+
+.second-wrp {
+    display: block;
+}
+
+p {
+    display: block;
+    margin: 30px 116px;
+}
+
+.third-wrp {
+    display: flex;
+    justify-content: center;
+    margin: 20px 120px 15px;
+}
+
+.stick {
+    position: relative;
+    height: 40vh;
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 65%;
+}
+
+.fourth-wrp {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 80px;
+}
+
+.item1 {
+    position: relative;
+    flex-basis: 90%;
+    height: 60px;
+}
+
+.item2 {
+    position: relative;
+    flex-basis: 5%;
+    height: 60px;
+}
+
+.item3 {
+    position: relative;
+    flex-basis: 30%;
+    height: 60px;
+}
