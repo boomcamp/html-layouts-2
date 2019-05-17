@@ -1,0 +1,64 @@
+// *{border:1px solid aqua;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row1,.row2,.row3,p{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row1{
+    justify-content: space-between;
+}
+
+.row1 div{
+    display: inline-block;
+    width: 300px;
+    height: 180px;
+}
+
+.row2 div{
+    width: 35%;
+    height: 450px;
+}
+
+.row3 .red, .row3 .red .black{
+    height: 150px;
+}
+
+.row3.blue{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.row3 .red{
+    width: 35%;
+    float: right;
+}
+
+.row3 .red .black{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.black{
+    background-color: black;
+}
