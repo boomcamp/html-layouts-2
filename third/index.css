@@ -42,5 +42,9 @@ p{
 
 .col{
     flex-grow: 1;
+    margin: 0 10px;
 }
 
+img{
+    width: 100%;
+}
