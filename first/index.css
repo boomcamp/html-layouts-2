@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.outer-first {
+    position: relative;
+    top: 3.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 27.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgb(95, 196, 48);*/
+}
+
+.outer-second {
+
+}
+
+.box-inner-first {
+    height: auto;
+    min-height: 27.5vh;
+    width: 30%;
+}
+
+.color-red {
+    background-color: #ff0001;
+}
+
+.color-blue {
+    background-color: #6495ed;
+}
+
+.color-gray {
+    background-color: #686868;
+}
