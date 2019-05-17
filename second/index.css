@@ -1,0 +1,79 @@
+body {
+    background-color: #d2d2d2;
+    margin-top: 40px;
+}
+
+.container {
+    background-color: white;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 35px 5px 35px;
+    margin-bottom: 40px;
+}
+
+.text {
+    font-size: 1.17em;
+    font-family: Arial;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.button {
+    padding: 13px 55px 13px 55px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.b-text {
+    font-size: 1.5em;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+}
+
+.picture {
+    padding: 20px 0 20px 0;
+}
+
+.pic {
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 74px;
+    background-color: #4b4b4b;
+    color: white;
+    text-align: right;
+    padding: 0 25% 0 0;
+}
+
+.footer .margin{
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+
+.footer span a {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
