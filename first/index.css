@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.layout {
+    padding: 25px 165px;
+}
+
+/* top boxes css */
+
+.top-boxes {
+    display: flex;
+    justify-items: space-around;
+}
+
+.box-1 {
+    flex: 1;
+    margin-right: 50px;
+    height: 200px;
+    background-color: red;
+}
+
+.box-2 {
+    flex: 1;
+    height: 200px;
+    margin-right: 50px;
+    background-color: cornflowerblue
+}
+
+.box-3 {
+    flex: 1;
+    height: 200px;
+    background-color: dimgray;
+}
+
+/* content-text */
+.content {
+    padding:30px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.content-text {
+    font-size: 24px;
+}
+
+/* bottom boxex */
+
+.big-box {
+    display: flex;
+    margin-bottom: 20px;
+}
+.big-box-1{
+    height: 500px;
+    flex:1;
+    background-color: red;
+}
+.big-box-2 {
+    height: 500px;
+    flex:2;
+    background-color: cornflowerblue;
+}
+
+.last-box {
+    display: flex;
+}
+
+.last-box-1{
+    flex:70;
+    background-color: cornflowerblue;
+    height:150px;
+}
+.last-box-2{
+    flex: 4;
+    background-color: red;
+    height: 150px;
+}
+.last-box-3 {
+    flex: 26;
+    background-color: dimgray;
+    height: 150px;
+}
+.last-box-4 {
+    flex: 4;
+    background-color: red;
+    height: 150px;
+}
