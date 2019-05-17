@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+/* Header Config */
+
+header{
+    top: 0;
+    width: 100%;
+    height: 75px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 40px;
+    background-color: #808080;
+}
+
+.head_link{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 40px;
+}
+
+/* Main Config */
+
+main{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 40px;
+}
+
+h1{
+    color: grey;
+    margin-top: 32px;
+    font-size: 48px;
+    float: left;
+    margin-bottom: 0;
+}
+
+.position_left{
+    float: left;
+    clear: left;
+}
+
+.position_right{
+    float: right;
+    clear: right;
+}
+
+.text_column{
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.image{
+    box-sizing: border-box;
+    width: 50%;
+    margin: 24px 0 0 0;
+    padding: 8px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img{
+    width: 100%;
+}
