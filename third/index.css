@@ -13,7 +13,6 @@ main {
 }
 
 main h1 {
-    margin-top: 32px;
     margin-bottom: 0;
     font-size: 48px;
     color: gray;
@@ -24,16 +23,22 @@ p {
     font-size: 18px;
 }
 
+.pull-left {
+    float: left;
+    clear: left;
+}
+
+.pull-right {
+    float: right;
+    clear: right;
+}
+
 /* NAVIGATION BAR */
 .header-nav {
+    display: flex;
     background-color: gray;
-    height: 75px;
     padding: 24px 40px;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
   }
   
 .nav-link {
@@ -50,19 +55,7 @@ p {
     margin: 24px 0 0 0;
     padding-left: 8px;
     float: right;
-    align-items: center;
-    justify-content: center;
     box-sizing: border-box;
-}
-
-.pull-left {
-    float: left;
-    clear: left;
-}
-
-.pull-right {
-    float: right;
-    clear: right;
 }
 
 .text-column {
