@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  background-color: gainsboro;
+  height: auto;
+}
+.container-text {
+  display: flex;
+  height: 350px;
+  width: 1310px;
+  background-color: white;
+  position: absolute;
+  top: 120px;
+  left: 310px;
+}
+ p {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: 23pt;
+  line-height: 60px;
+}
+.btn-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 522px;
+
+  position: absolute;
+  top: 240px;
+  left: 60px;
+}
+.box {
+  height: 100%;
+  width: 46%;
+  border: 1px dotted black;
+}
+h1 {
+  text-align: center;
+  margin-top: 18px;
+  font-family: Arial, sans-serif;
+  font-size: 30pt;
+  color: white;
+}
+.btn-red {
+  background-color: red;
+}
+.btn-blue {
+  background-color: blue;
+}
+.container-pic{
+    background-color: white;
+    display: flex;
+    height: 1000px;
+    width: 1310px;
+    position: absolute;
+    top: 530px;
+    left: 310px;
+    
+    
+}
+.bg-picture{
+    background-image: url("https://picsum.photos/500/300");
+    height: 640px;
+    width: 1190px;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    border: 2px solid black;
+}
+h2{
+    position: relative;
+    height: 250px;
+    width: 1200px;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    top: 740px;
+    left: 60px;
+    line-height: 50px;
+
+}
+.footer{
+    background-color: gray;
+    height: 120px;
+    width: 100%;
+    top: 1590px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    margin-right: 200px; 
+    text-decoration: none;
+}
