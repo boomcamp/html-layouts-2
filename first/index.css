@@ -1,0 +1,74 @@
+/* block1-3
+box1-7
+color1-3 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+p {
+    font-size: 24px;
+}
+
+
+.block1 {
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.box {
+    width: calc(100% / 3 - 35px);
+}
+
+.block2 {
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block3 {
+    padding: 20px 80px;
+    display: flex;
+    height: 500px;
+}
+
+.box2 {
+    flex-grow: 4;
+   
+}
+
+.box3 {
+    flex-grow: 8;
+}
+
+.block4 {
+    padding: 20px 80px;
+    display: flex;
+    height: 150px;
+}
+
+.box4 {
+    flex-grow: 10;
+}
+
+.box5 {
+    flex-grow: 0.8;
+}
+
+.box6 {
+    flex-grow: 5;
+}
+
+.color1{
+    background-color: red;
+}
+
+.color2{
+    background-color: dodgerblue;
+}
+
+.color3{
+    background-color: gray;
+}
