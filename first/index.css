@@ -1,0 +1,60 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%; 
+    margin-top: 20px;
+}
+
+.con1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.con3, .con4{
+    display: flex;
+}
+
+.rec{
+    height: 20vh;
+    width: 32%;
+    display: inline-block;
+
+}
+
+.rec1{
+    height: 40vh;
+    width: 100%;
+}
+
+.rec2{
+    height: 18vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.rec3{
+    height: 18vh;
+    width: 80%;
+    margin: auto;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: cornflowerblue;
+}
+
+.gray{
+    background-color: dimgray;
+}
+
+.rec1.blue{
+    width: 300%;
+}
+
+.rec2.blue{
+    width: 200%;
+}
+
+
