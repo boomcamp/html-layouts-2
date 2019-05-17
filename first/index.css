@@ -1,0 +1,80 @@
+body{
+ 
+    height: 100%;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+/* position and sizes */
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.center{
+    margin:0 auto;
+}
+
+.width-100{
+    width: 100%;
+}
+.width-85{
+    width: 85%;
+}
+.width-75{
+    width: 75%;
+}
+.width-33{
+    width: 33%;
+}
+.height-100{
+    height: 100%;
+}
+
+
+/* color */
+
+.blue{
+    background: blue;
+}
+.gray{
+    background: #696969;
+}
+.red{
+    background: red;
+}
+
+/* boxes */
+
+.box-wrapper{
+    overflow: auto;
+    
+}
+.box{
+    float: left;
+    height: 200px;
+    width: calc(100% / 3 - 50px); 
+    margin: 25px;
+}
+
+.box-container{
+    height: 500px;
+    margin: 25px;
+}
+
+/* text */
+
+.text{
+   
+    padding:25px;
+    font-size:24px;
+}
+
+
+/* footer */
+footer{
+    margin:25px;
+    height:150px;
+}
