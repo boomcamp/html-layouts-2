@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: gray;
+    font-size: 48px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.navbar {
+    padding: 15px 40px;
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    background-color: gray;
+}
+.btn{
+    border: none;
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+    padding-right: 30px;
+}
+
+.container {
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.col {
+    padding-top: 20px;
+    width: calc(100% / 2 - 15px);
+}
