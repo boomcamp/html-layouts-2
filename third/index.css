@@ -1,0 +1,52 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+.header-nav{
+    background-color: gray;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 24px 40px;
+    box-sizing: border-box;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin: 15px 15px;
+    font-size: 25px;
+}
+main{
+    box-sizing: border-box;
+    padding: 40px;
+}
+h1{
+    font-size: 48px;
+    color: gray;
+}
+.pull-left{
+    float: left;
+    clear: left;
+}
+.pull-right{
+    float: right;
+}
+.text-column {
+  padding: 12px;
+  box-sizing: border-box;
+  max-width: 50%;
+  font-size: 20px;
+}
+.article-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    float: right;
+}
+img{
+    width: 100%;
+}
