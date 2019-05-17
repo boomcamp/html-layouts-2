@@ -8,6 +8,11 @@ body{
     padding: 0 150px;
 }
 
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .center{
     margin: 0 auto;
 }
@@ -70,4 +75,3 @@ footer {
     margin: 25px;
     height: 150px;
 }
-  
