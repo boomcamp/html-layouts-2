@@ -18,7 +18,6 @@ body {
     height: 27.5vh;
     margin-left: auto;
     margin-right: auto;
-    /*background-color: rgb(95, 196, 48);*/
 }
 
 .outer-second {
@@ -27,7 +26,6 @@ body {
     top: 10vh;
     height: 35vh;
     width: 80%;
-    /*background-color: rgb(95, 196, 48);*/
     margin-left: auto;
     margin-right: auto;
 }
