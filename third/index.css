@@ -1,0 +1,52 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.header{
+  width: 100%;
+  height: 75px;
+  background-color: gray;
+}
+
+.link{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  margin-left:50px ;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin:45px 25px;
+  padding: 30px;
+}
+
+.first{
+  box-sizing: border-box;
+  width: 50%;
+  height: 80%;
+}
+
+.second{
+  box-sizing: border-box;
+  width: 50%;
+  height: 80%; 
+}
+
+img{
+  width: 100%;
+  height: 650px; 
+}
+
+h1{
+  font-weight: bold;
+  color: gray;
+  font-size: 47px;
+}
+
+p{
+  font-size: 18px;
+  font-family: sans-serif;
+}
