@@ -36,6 +36,7 @@ main {
 
 .content-wrapper {
   margin-bottom: 40px;
+  border:solid 1px red;
 }
 
 .content {
@@ -44,6 +45,7 @@ main {
   justify-content: space-around;
   height: 100%;
   box-sizing: border-box;
+  
 }
 
 .content img {
