@@ -1,0 +1,65 @@
+/* ------------------- Section #1 ------------------- */
+body, html{
+    font-family: Arial;
+    margin: 0; 
+    background-color: #d3d3d3;
+    height: 100%;
+}
+
+.section1{
+    padding: 10px 50px;
+    width: 54%;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.text1{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.btn1{
+    background-color: #ff2e04;
+    padding: 18px 65px;
+    border: none;
+    color:  white;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 25px 15px 0;
+}
+.btn2{
+    background-color: #0142fd;
+    padding: 18px 65px;
+    border: none;
+    color:  white;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 20px 10px 0;
+}
+
+/* ------------------- Section #2 ------------------- */
+.section2{
+    padding: 50px 50px 30px 50px;
+    width: 54%;
+    background-color: white;
+    margin: 0 auto;
+}
+/* ------------------- Footer ------------------- */
+footer{
+    background-color: #4a4a4a;
+    padding: 45px;
+    position: relative;
+    top: 5%;
+}
+.foot{
+    width: 64%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.footer_text{
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    margin: 0 20px;
+}
