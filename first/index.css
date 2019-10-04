@@ -7,7 +7,6 @@ body{
 .container{
     width: 82%;
     margin: auto;
-    box-sizing: border-box;
     padding: 25px 0px
 }
 .box-holder{
@@ -67,7 +66,6 @@ body{
 .bh3-2{
     width: 33%;
     background: #ff2e01;
-    box-sizing: border-box
 }
 
 .bh3-2-container{
