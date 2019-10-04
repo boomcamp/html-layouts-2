@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 29%;
+    height: 300px;
+    background: violet;
+}
+
+
+.second, .third{
+    font-size: 30px;
+}
+
+.fourth, .five{
+    display: flex;
+}
+
+.extend-box-one {
+    height: 500px;
+    width: 25%;
+}
+
+.extend-box-two {
+    height: 500px;
+    width: 75%;
+}
+
+.five{
+    margin-bottom: 30px;
+}
+
+.fone{
+    width: 70%;
+    height: 150px;
+}
+
+.ftwo{
+    width: 5%;
+    height: 150px;
+}
+
+
+.fthree{
+    width: 20%;
+    height: 150px;
+}
+
+.ffour{
+    width: 5%;
+    height: 150px;
+}
+
+/* colorettes */
+
+.red{
+    background: #ff2e04;
+}
+
+.blue{
+    background: #6394ed;
+}
+
+.gray{
+    background: #696969;
+}
+
+
+
+
