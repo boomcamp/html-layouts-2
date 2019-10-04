@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: lightgray;
+}
+
+.container{
+    width: 60%;
+    background: white;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.clickables{
+    display: flex;
+    /* justify-content: flex-start; */
+    margin: 20px 20px 5px 0;
+}
+
+.btn{
+    height: 60px;
+    width: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.muro{
+    width: 98%;
+
+    /* margin-top: 30px; */
+}
+
+.container p{
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+.footer{
+    display: flex;
+    background: rgb(80, 80, 80);
+    color: white;
+    padding: 30px;
+    justify-content: flex-end;
+    padding-right: 20%;
+    position: relative;
+    bottom: 0px;
+    top: 32px;
+}
+
+.remarks{
+    margin-left: 40px;
+}
+
+
+
+.red{
+    background: red;
+}
+
+.blue{
+    background: blue;
+}
