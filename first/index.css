@@ -1,0 +1,107 @@
+.container{
+    width: 90%;
+    margin: 10px auto 0;
+}
+
+/*first section start*/
+.una{
+    display: flex;
+    justify-content: space-between;
+}
+
+.una .red{
+    width: 500px;
+    height: 250px;
+    border: 1px solid red;
+    background-color: red;
+
+}
+
+.una .blue{
+    width: 500px;
+    height: 250px;
+    border: 1px solid #689bed;
+    background-color: #689bed;
+}
+
+.una .grey{
+    width: 500px;
+    height: 250px;
+    border: 1px solid grey;
+    background-color: grey;
+
+}
+/*first section end*/
+
+/*second section start*/
+.dos p{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*second section end*/
+
+/*third section start*/
+.tres{
+    display: flex;
+    justify-content: center;
+}
+
+.tres .red{
+    width: 500px;
+    height: 650px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+.tres .blue{
+    flex: 2;
+    width: 500px;
+    height: 650px;
+    border: 1px solid #689bed;
+    background-color: #689bed;
+}
+/*third section end*/
+
+/*fourth section end*/
+.quatro{
+    margin-top: 20px;
+    display: flex;
+}
+
+.quatro .blue{
+    flex: 3;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #689bed;
+    background-color: #689bed;
+}
+
+.quatro .red{
+    flex: 0.2;
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+
+.quatro .grey{
+    flex: 1;
+    width: 250px;
+    height: 250px;
+    border: 1px solid grey;
+    background-color: grey;
+}
+
+.quatro .red2{
+    flex: 0.2;
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+    background-color: red;
+}
+
+
+
+/*fourth section start*/
