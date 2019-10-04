@@ -1,0 +1,73 @@
+/*DEFAULT*/
+html,body {
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text-block {
+    margin: 0;
+    padding: 25px;
+    font-size: 24px;
+}
+
+/*HEADER*/
+header {
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 180px;
+    width: 33%;
+    margin-right: 20px;
+}
+
+
+/*COLORS*/
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.gray {
+    background-color: dimgray;
+}
+
+
+/*CONTENT*/
+.content-box {
+    height:500px;
+    margin:25px;
+}
+
+.inside-content {
+    float: left;
+    height: 100%;
+    width: 32%;
+}
+
+/*FOOTER CONTENT*/
+footer {
+    height: 150px;
+    margin: 25px;
+}
+
+.red-content {
+    width: 33%;
+    float: right;
+    height: 100%;
+}
+
+.gray-content {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+}
