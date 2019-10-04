@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+}
+
+.box1{
+    background: #f60020;
+    border: 1px solid #f60020;
+}
+
+.box2{
+    background: #728eee;
+    border: 1px solid #728eee;
+}
+
+.box3{
+   background: #696969;
+   border: 1px solid #696969;
+}
+
+.div1{
+    display: flex;
+    margin-top: 3vh;
+    margin-left: 3vw;  
+    justify-content: space-between; 
+}
+
+.div1 .box1{
+    height: 230px;
+    width: 400px;
+}
+
+.div1 .box2{
+    height: 230px;
+    width: 400px;
+}
+
+.div1 .box3{
+    height: 230px;
+    width: 400px;
+}
+
+.div2{
+    margin: auto;
+    margin-top: 4vh;
+}
+
+.div2 .text{
+    font-size: 18px;
+    margin-left: 3vw;
+    margin-bottom: 4vh;
+}
+
+.div3{
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3vw;
+}
+
+.div3 .box1{
+    height: 400px;
+    width: 40vw;
+}
+
+.div3 .box2{
+    height: 400px;
+    width: 60vw;
+}
+
+.div4{
+    margin: 3vh auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3vw;
+}
+
+.div4 .box1{
+    order: 2;
+    width: 25vw;
+    height: 15vh;
+}
+
+.div4 .box2{
+    order: 1;
+    width: 55vw;
+    height: 15vh;
+}
+
+.div4 .box3{
+    order: 3;
+    position: absolute;
+    width: 17vw;
+    height: 15vh;
+    z-index: 100;
+    left: 69vw;
+}
