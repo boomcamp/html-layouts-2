@@ -1,0 +1,74 @@
+html, body
+{
+padding: 0;
+height: 100%;
+background-color: #fff;
+font-family: sans-serif;
+}
+.size
+{
+    width: 85%;
+    margin:  auto;
+}
+.main
+{
+    overflow: auto;
+}
+
+.shape
+{
+    
+    float: left;
+    height: 200px;
+    width: calc(33.3333% - 50px);
+    margin: 25px;
+}
+.red
+{
+    background-color: red;  
+}
+.blue
+{
+    background-color: cornflowerblue;
+}
+.gray
+{
+    background-color:gray;
+}
+.text{
+    margin-top: 30px; 
+    margin: 0;
+    padding: 25px;
+    font-size: 24px;
+}
+.container
+{
+    width: 97%;
+    margin:  auto;
+    height: 500px;
+    background-color: cornflowerblue;
+    
+}
+.square
+{
+    display: static;
+    height: 500px;
+    width: 30%;
+}
+.container2
+{
+    margin: 24px;
+    height: 150px;
+}
+.inner1
+{
+    width: 33%;
+    height: 100%;
+    float: right;
+}
+.inner2
+{
+    width: 80%;
+    height: 100%;
+    margin:  auto;
+}
