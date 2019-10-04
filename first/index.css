@@ -1,0 +1,83 @@
+
+.wrap{
+   
+     height: 50vh;
+     width: 50%;
+     margin-left: 15%;
+     padding-left: 5%;
+     padding-top: 1%;
+     display: inline-block;
+    
+}
+.cont1{
+    display: inline-block;
+    background-color: rgb(245, 29, 29);
+    height: 20vh;
+    width: 40%;
+    margin-left: -10%
+}
+.cont2{
+    margin-left: 10%;
+    display: inline-block;
+    background-color: rgb(46, 154, 216);
+    height: 20vh;
+    width: 40%;
+}
+.cont3{
+    position: absolute;
+    top: 2.7%;
+    right:14.5%;
+    display: inline-block;
+    background-color: rgb(105, 105, 105);
+    height: 20vh;
+    width: 20%;
+ 
+}
+.p1{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    text-align: justify;
+
+}
+.p2{
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    text-align: justify;
+}
+.cont4{
+    position: relative;
+    top: 55%; 
+    right:10%;  
+    background-color: rgb(245, 29, 29);
+    height: 50vh;
+    width: 40%;
+}
+.cont5{
+    position: absolute;
+    top: 50.5%; 
+    right:14.9%;  
+    background-color: rgb(46, 154, 216);
+    height: 50vh;
+    width: 50%;
+}
+.cont6{
+    border-right: 50px solid rgb(245, 29, 29);
+    position: absolute;
+    top: 107%; 
+    right:40%;  
+    background-color: rgb(46, 154, 216);
+    height:10vh;
+    width: 42%;
+    z-index: 1;
+}
+.cont7{
+    border-right: 50px solid rgb(245, 29, 29);
+    position: absolute;
+    top: 107%; 
+    right: 15%;
+    background-color: rgb(105, 105, 105);
+    height:10vh;
+    width: 24%;
+}
