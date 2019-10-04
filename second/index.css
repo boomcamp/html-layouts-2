@@ -1,0 +1,92 @@
+body{
+  background-color:  lightgray;
+  display:block;
+  margin:0 auto;
+}
+.main{
+    display: grid;                                                                                                           
+   grid-template-rows: 250px 595px;  
+   margin-top:1%;  
+   padding: 7px;
+  
+}
+.line1{
+    background-color: white;
+    margin-top:1%;
+    width: 62%;
+    margin-left:19%;
+}
+.line2{
+    background-color: white;
+    margin-top:2%;
+    width:62%;
+    margin-left:19%;
+}
+.main2{
+    position: fixed;
+    box-sizing: border-box;
+    bottom: 0;
+    width: 100%;
+}
+.line3{
+    height:100px;
+    background-color: #4a4a4a;
+    padding: 0 25%;
+   
+}
+.line1inside{
+    font-family: arial;
+    font-size: 18px;
+    margin: 2% 5%;
+    line-height: 30px;
+   
+}
+.mother{
+  display:block;
+    
+}
+.boxinside{
+    margin: 1% 4%;
+    background-color: red;
+    width: 13%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    display: inline-block;  
+
+}
+.boxinside1{
+    background-color: blue;
+    width: 13%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.images{
+    background-image: url("./400px-TheNinth.6.jpeg");
+    position: absolute;
+    width: 57.5%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left:2%;
+    margin-top:2%;
+}
+.line1inside4{
+    font-family: arial;
+    font-size: 18px;
+    margin: 2% 5%;
+    line-height: 30px;
+    margin-top:38%;
+}
+.app{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-left: 45px;
+    float: right;
+    padding: 30px 0;
+}
