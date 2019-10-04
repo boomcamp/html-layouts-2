@@ -7,7 +7,7 @@ body{
     box-sizing: border-box;
 }
 section{
-    margin: 3vh auto 5.5vh;
+    margin: 3vh auto 6vh;
     padding: 1rem 2.5rem;
     width: 55%;
     height: auto;
@@ -64,7 +64,7 @@ footer div{
 footer a{
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-family: sans-serif;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
 }
