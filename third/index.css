@@ -1,0 +1,75 @@
+   body {
+ 	 font-family: sans-serif;
+ 	 margin: 0;
+     height: 100vh;
+}
+   .top{
+    background-color: gray;
+    height: 75px;
+    padding: 24px 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+ } 
+ .top .app{
+    text-decoration: none;
+    color: white;	
+    font-size: 22px;
+    margin-left: 45px;
+    float: left;
+    padding: 30px 0;
+}
+.all{
+ 	padding: 40px;
+}
+
+.images{
+	background-image: url("./400px-TheNinth.6.jpeg");
+	position: absolute;
+    width: 45%;
+    height: 45%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left:48%;
+    margin-top:5%;
+}
+h1{
+  margin-top: 32px;
+  margin-bottom: 0;
+  font-size: 50px;
+  color: gray;
+  float: left;
+}
+
+.right-text{
+	margin-top: 78%;
+	margin-left:5%;
+}
+.right-text {
+  font-size: 18px;
+  float: right;
+  text-align: justify;
+}
+.left-text p {
+  font-size: 18px;
+  float: left;
+
+
+}
+.alltext{
+
+  padding: 12px;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: justify;
+}
+.alltext1{
+
+	flex-direction: column;
+	align-items:center;
+  text-align: justify;
+  display: flex;
+
+}
